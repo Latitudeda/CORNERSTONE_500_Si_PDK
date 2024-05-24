@@ -1,0 +1,8 @@
+[build-system]
+requires = []
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "CORNERSTONE SOI500nm pdk documentation"
+authors = [{ name = "kathylin", email = "kathy_lin@latitudeda.com" }]
+dynamic = ["version", "description"]
