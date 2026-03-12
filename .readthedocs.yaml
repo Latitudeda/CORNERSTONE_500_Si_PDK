@@ -6,15 +6,15 @@ build:
     python: "3.9"
 sphinx:
   # Path to the shared conf.py file.
-  configuration: docs/conf.py
+  configuration: docs/source/conf.py
 
 python:
   install:
     - requirements: requirements.txt
 
 
-sphinx:
-  fail_on_warning: true
+#sphinx:
+#  fail_on_warning: true
 
 formats: all
 
